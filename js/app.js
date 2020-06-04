@@ -23,11 +23,11 @@ function guessingGame(){
 
     return results;
 }
-var result = helloMsg();
+var results = helloMsg();
 
 
 //console.log(`${results} ${pick} ${bestBand}`);
 
-console.log(result);
+console.log(results);
 
-document.write(result);
+document.write(results);
