@@ -1,31 +1,33 @@
 'use strict';
+console.log('This file is connected!');
 
-console.log('This file connected!');
-var userName = prompt('Please enter your first name.');
-var hourNow = prompt('What time is it now?, 0-23');
-//variable declaration.
-var greeting;
-if(hourNow >= 18 && hourNow < 24){
-    greeting = 'good evening, ' + userName + ' !';
-} else if (hourNow > 12 && hourNow < 18){
-    greeting = 'Good afternoon '+ userName + ' !';
-} else if (hourNow >= 0 && hourNow <= 12) {
-    greeting = ' Good Morning ' + userName;
-} else {
-    greeting = ' Hello, how are ya? ';
+
+function guessingGame(){
+
+    var results;
+    var favorite = prompt('What music do you love to listen to');
+
+    var pick = prompt('Is your favorite musician on the list?');
+    //variable declaration
+
+
+    if (pick == 1) {
+        results = 'good job!';
+    } else if (pick == 2) {
+        results = 'almost!';
+    } else if (pick == 3) {
+        results = ' nope!';
+    } else {
+        results = 'rockstar ';
+    }
+
+    return results;
 }
-console.log(userName + ' ' + hourNow + ' ' + greeting);
+var result = helloMsg();
 
 
-document.write('<h1 style="color:yellow; font-size: 50px; background-color:blue;">' + greeting + '</h1>');
+//console.log(`${results} ${pick} ${bestBand}`);
 
+console.log(result);
 
-var header = document.getElementById('removeThis');
-//header.remove();
-
-
-
-//first function 
-function firstFunction(){
-
-}
+document.write(result);
