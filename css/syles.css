@@ -11,6 +11,9 @@ head {
 p {
     color:red
 }
+nav {
+    color:orange
+}
  * {
     background-color: black;
     font-style: oblique;
