@@ -6,28 +6,19 @@ function guessingGame(){
 
     var results;
     var favorite = prompt('What music do you love to listen to');
-
-    var pick = prompt('Is your favorite musician on the list?');
-    //variable declaration
-
-
     if (pick == 1) {
-        results = 'good job!';
-    } else if (pick == 2) {
-        results = 'almost!';
-    } else if (pick == 3) {
-        results = ' nope!';
+        results = 'Ed Sheeran';
     } else {
         results = 'rockstar ';
     }
 
     return results;
 }
-var results = helloMsg();
+var results = guessingGame();
 
 
 //console.log(`${results} ${pick} ${bestBand}`);
 
-console.log(results);
+console.log("click the link to see if your favorite bank is on the list"s);
 
-document.write(results);
+document.write("click the link to see if your favorite bank is on the list");
