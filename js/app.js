@@ -1,6 +1,25 @@
 'use strict';
 console.log('This file is connected!');
 
+function welcomeSign(){
+
+
+    var userName = prompt('What is your name?');
+    while(userName == ''){
+        userName = prompt('Please enter your name');
+    }
+    if (userName == null){
+        userName = 'who';
+    } else {
+        userName = 'if '+ userName;
+    }
+    var userName = 'Click the link to see '+ userName + ' made the list';
+
+    return results;
+}
+var results = welcomeSign();
+
+
 
 function guessingGame(){
 
