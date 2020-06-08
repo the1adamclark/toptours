@@ -1,5 +1,5 @@
 'use strict';
-<<<<<<< HEAD
+
 
 console.log('Thank you for the input!');
 var yourVote = prompt('What is your favorite type of music?');
@@ -30,7 +30,7 @@ var header = document.getElementById('removeThis');
 function firstFunction(){
 
 }
-=======
+
 console.log('This file is connected!');
 
 function welcomeSign(){
@@ -73,4 +73,4 @@ var results = guessingGame();
 
 
 document.getElementById('button').innerHTML = results;
->>>>>>> e1e5b6af033d67f000c325cd91420be2007aa887
+
